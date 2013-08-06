@@ -20,8 +20,19 @@
     <div class="buttonBox">
       <div id="fullscreen" class="button">Enter Full Screen</div>
       <div id="newRoom" class="button">Create A New Room</div>
+      <div id="sharebutton">
+        share this on:
+        <select id="idlink">
+          <option value="http://youtube.com">Youtube</option>
+          <option value="http://twitter.com">Twitter</option>
+          <option value="http://google.com">Google</option>
+          <option value="http://es.wikipedia.com">Wikipedia</option>
+        </select>
+        <button onclick="window.open(document.getElementById('idlink').value)">go!</button>
+      </div>
     </div>
-    
+
+
     <script src="/script.js"></script>
   </body>
 </html>

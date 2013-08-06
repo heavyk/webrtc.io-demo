@@ -12,6 +12,8 @@
     "ws": "latest"
   },
   "subdomain": "MultiWebRTC",
+  "main": "http://localhost:8081/",
+  "node-main": "site/server.js",
   "scripts": {
     "start": "example/server.js"
   },
