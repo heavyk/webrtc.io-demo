@@ -15,6 +15,10 @@ app.get('/style.css', function(req, res) {
   res.sendfile(__dirname + '/style.css');
 });
 
+app.get('/css/bootstrap.css', function(req, res) {
+  res.sendfile(__dirname + '/css/bootstrap.css');
+});
+
 app.get('/fullscrean.png', function(req, res) {
   res.sendfile(__dirname + '/fullscrean.png');
 });

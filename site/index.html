@@ -1,7 +1,9 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title>Example webrtc.io</title>
-    <link type="text/css" href="/style.css" rel="stylesheet"></link>
+    <link type="text/css" href="/css/bootstrap.css" rel="stylesheet"></link>
+    <!--link type="text/css" href="/style.css" rel="stylesheet"></link-->
 
     <script src="/webrtc.io.js"></script>
   </head>
@@ -29,6 +31,73 @@
           <option value="http://es.wikipedia.com">Wikipedia</option>
         </select>
         <button onclick="window.open(document.getElementById('idlink').value)">go!</button>
+      </div>
+      <div class="row">
+        <div class="col-4 col-offset-2">
+          <form>
+            <fieldset>
+              <legend>Legend</legend>
+              <div class="form-group">
+                <label for="exampleInputEmail">Channel Name</label>
+                <input type="text" class="form-control" id="exampleInputEmail" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword">Channel Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword" placeholder="Password">
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Privado?
+                </label>
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </fieldset>
+          </form>
+        </div>
+        <div class="col-4">
+          <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Channel Name</th>
+            <th>Users</th>
+            <th>join</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>coolspeak</td>
+            <td>Otto, kenny, gonzalo</td>
+            <td><button>join</button></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>coolspeak</td>
+            <td>Otto, kenny, gonzalo</td>
+            <td><button>join</button></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>coolspeak</td>
+            <td>Otto, kenny, gonzalo</td>
+            <td><button>join</button></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>coolspeak</td>
+            <td>Otto, kenny, gonzalo</td>
+            <td><button>join</button></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>coolspeak</td>
+            <td>Otto, kenny, gonzalo</td>
+            <td><button>join</button></td>
+          </tr>
+        </tbody>
+      </table>
+        </div>
       </div>
     </div>
 
